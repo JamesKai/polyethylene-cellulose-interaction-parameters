@@ -13,6 +13,13 @@ The topology files (`10_Cellulose.itp`, `20_Cellulose.itp`, `40_Cellulose.itp`, 
 - **`PE.itp`**: Topology file for polyethylene (PE) chains. All interfacial simulations are performed with the same PE chain length (`PE.itp`) with varying cellulose chain lengths (e.g., 10-mer cellulose/PE interface, 20-mer cellulose/PE interface).
 - **`martini_v3.0.0.itp`**: Martini 3 forcefield parameter file demonstrating the non-bonded interaction parameters.
 
+### Scaled Non-Bonded Interaction Files (`modified_cellulose_non-bonded_interactions/`)
+
+After observing that the unmodified cellulose-cellulose non-bonded interactions led to an anomalously high cellulose surface tension and melting temperature (see main text for details), two additional sets of PE/cellulose interfacial simulations were performed using scaled non-bonded interactions. These simulations reuse the same `10_Cellulose.itp`, `20_Cellulose.itp`, `40_Cellulose.itp`, and `PE.itp` topology files (all bonded parameters are unchanged). Only the non-bonded interaction file changes: `martini_v3.0.0.itp` is replaced with one of the scaled files below.
+
+- **`martini_v3.0.0_cellulose_scaled_70pct.itp`**: Non-bonded interaction parameters extracted from `martini_v3.0.0.itp` for the PE and cellulose bead types, with the Lennard-Jones epsilon of every interaction involving at least one cellulose bead (cellulose-cellulose and cellulose-PE) scaled to 70% of its original value. PE-PE interactions are unchanged.
+- **`martini_v3.0.0_cellulose_scaled_50pct.itp`**: Same as above, but with the Lennard-Jones epsilon of every interaction involving at least one cellulose bead scaled to 50% of its original value.
+
 ## References
 
 All reference data are shown in their respective `.itp` files. If you use these parameters, please cite the following papers according to the files used:

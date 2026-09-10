@@ -1,3 +1,13 @@
+; Non-bonded interaction parameters sourced from martini_v3.0.0.itp, restricted to the
+; PE (C1) and cellulose (SN6, SP4r, SP1r, TC4) bead types used in the PE/cellulose
+; interfacial simulations. All Lennard-Jones epsilon values involving at least one
+; cellulose bead type (cellulose-cellulose and cellulose-PE pairs) have been scaled by
+; 70% of their original martini_v3.0.0.itp value to reduce the overpredicted cellulose
+; surface tension and melting temperature seen with the unmodified parameters. PE-PE
+; (C1-C1) interactions are unchanged from martini_v3.0.0.itp.
+;
+; Please cite the following paper for the underlying Martini 3 forcefield:
+;   Souza, P C T; Alessandri, R; Barnoud, J; Thallmair, S; Faustino, I; Grünewald, F; Patmanidis, I; Abdizadeh, H; Bruininks, B M H; Wassenaar, T A; Kroon, P C; Melcr, J; Nieto, V; Corradi, V; Khan, H M; Domański, J; Javanainen, M; Martinez-Seara, H; Reuter, N; Best, R B; Vattulainen, I; Monticelli, L; Periole, X; Tieleman, D P; de Vries, A H; Marrink, S J;  Nature Methods 2021; 10.1038/s41592-021-01098-3
 
 [ defaults ]
 ; nbfunc comb-rule
