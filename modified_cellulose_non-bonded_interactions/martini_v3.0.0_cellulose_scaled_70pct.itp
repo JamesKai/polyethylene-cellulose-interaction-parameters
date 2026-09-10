@@ -1,0 +1,30 @@
+
+[ defaults ]
+; nbfunc comb-rule
+1 2
+
+[ atomtypes ]
+; name bond_type mass charge ptype sigma
+C1   72.0 0.0 A 0.0 0.0
+SN6  54.0 0.0 A 0.0 0.0
+SP4r 54.0 0.0 A 0.0 0.0
+SP1r 54.0 0.0 A 0.0 0.0
+TC4  36.0 0.0 A 0.0 0.0
+
+[ nonbond_params ]
+; atom1 atom2 func sigma epsilon
+SN6  C1   1  0.43 1.512
+SN6  SN6  1  0.41 2.149
+SP4r SN6  1  0.41 1.988
+SP1r SN6  1  0.41 2.149
+SN6  TC4  1 0.366  1.12
+TC4  C1   1 0.395 1.295
+TC4  TC4  1  0.34 1.057
+SP4r TC4  1 0.394 0.903
+SP1r TC4  1 0.378 1.015
+C1   C1   1  0.47  3.39
+SP4r C1   1  0.43 1.211
+SP1r C1   1  0.43 1.351
+SP4r SP4r 1  0.41 2.317
+SP1r SP1r 1  0.41 1.988
+SP4r SP1r 1  0.41 1.988
