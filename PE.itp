@@ -1,5 +1,3 @@
-; /home/x00724/.local/bin/polyply gen_params -lib martini3 -o PE50.itp -name PE50 -seq PE:50
-
 ; Please cite the following papers:
 ; Souza, P C T; Alessandri, R; Barnoud, J; Thallmair, S; Faustino, I; Grünewald, F; Patmanidis, I; Abdizadeh, H; Bruininks, B M H; Wassenaar, T A; Kroon, P C; Melcr, J; Nieto, V; Corradi, V; Khan, H M; Domański, J; Javanainen, M; Martinez-Seara, H; Reuter, N; Best, R B; Vattulainen, I; Monticelli, L; Periole, X; Tieleman, D P; de Vries, A H; Marrink, S J;  Nature Methods 2021; 10.1038/s41592-021-01098-3
 ; Grunewald, F; Alessandri, R; Kroon, P C; Monticelli, L; Souza, P C; Marrink, S J;  Nature Communications 2022; 10.1038/s41467-021-27627-4
@@ -263,4 +261,3 @@ PE50 1
 46 47 48 49 11 7.0 -0.2 -1.0 0.0 0.0 0.0
 47 48 49 50 11 7.0 -0.2 -1.0 0.0 0.0 0.0
 #endif
-
