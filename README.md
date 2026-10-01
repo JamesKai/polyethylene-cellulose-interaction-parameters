@@ -2,6 +2,18 @@
 
 This repository contains the interaction parameters under the Martini 3 forcefield used for the molecular simulations in the paper: *"Probing Interfacial Structure and Thermodynamics of Polyethylene-Cellulose Bilayers via Molecular Simulations"*.
 
+## Authors
+
+Hsiang-Ju Kai<sup>1, 3</sup>, J. Carson Meredith<sup>1, 3</sup>, and Thomas E. Gartner, III<sup>\*, 2</sup>
+
+<sup>1</sup>School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA
+
+<sup>2</sup>Department of Chemical & Biomolecular Engineering, Lehigh University, Bethlehem, PA
+
+<sup>3</sup>Renewable Bioproducts Institute, Georgia Institute of Technology, Atlanta, GA
+
+\*Corresponding author email: teg323@lehigh.edu
+
 ## Files Description
 
 The topology files (`10_Cellulose.itp`, `20_Cellulose.itp`, `40_Cellulose.itp`, `Crystalline_Cellulose.itp`, and `PE.itp`) are generated using [Polyply](https://github.com/marrink-lab/polyply_1.0).
