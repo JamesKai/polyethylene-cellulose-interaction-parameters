@@ -1,6 +1,6 @@
 # polyethylene-cellulose-interaction-parameters
 
-This repository contains the interaction parameters under the Martini 3 forcefield used for the molecular simulations in the paper: *"Probing Polyethylene-Cellulose Interfacial Structure with Molecular Simulations"*.
+This repository contains the interaction parameters under the Martini 3 forcefield used for the molecular simulations in the paper: *"Probing Interfacial Structure and Thermodynamics of Polyethylene-Cellulose Bilayers via Molecular Simulations"*.
 
 ## Files Description
 
