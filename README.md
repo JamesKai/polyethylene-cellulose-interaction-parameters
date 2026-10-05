@@ -6,14 +6,10 @@ This repository contains the interaction parameters under the Martini 3 forcefie
 
 Hsiang-Ju Kai<sup>1, 2</sup>, J. Carson Meredith<sup>3</sup>, and Thomas E. Gartner, III<sup>\*, 4</sup>
 
-<sup>1</sup>School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA
-
-<sup>2</sup>Renewable Bioproducts Institute, Georgia Institute of Technology, Atlanta, GA
-
-<sup>3</sup>Department of Chemical and Biomolecular Engineering, University of Tennessee, Knoxville, TN
-
-<sup>4</sup>Department of Chemical & Biomolecular Engineering, Lehigh University, Bethlehem, PA
-
+<sup>1</sup>School of Chemical & Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA<br>
+<sup>2</sup>Renewable Bioproducts Institute, Georgia Institute of Technology, Atlanta, GA<br>
+<sup>3</sup>Department of Chemical and Biomolecular Engineering, University of Tennessee, Knoxville, TN<br>
+<sup>4</sup>Department of Chemical & Biomolecular Engineering, Lehigh University, Bethlehem, PA<br>
 \*Corresponding author email: teg323@lehigh.edu
 
 ## Files Description
